@@ -52,7 +52,7 @@ async def megaban(ctx):
                             finally:
                                 pass
 
-@client.command(pass_context=True) #give you true power
+@client.command(pass_context=True)
 async def unlimitedroles(ctx):
     while True:
         server = ctx.guild
