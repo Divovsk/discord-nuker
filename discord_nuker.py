@@ -8,7 +8,7 @@ import asyncio
 import time
 import logging
 
-client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
+client = commands.Bot(command_prefix="!", intents=discord.Intents.all()) #Command prefix is "!", but you can change it
 
 @client.event
 async def on_ready():
